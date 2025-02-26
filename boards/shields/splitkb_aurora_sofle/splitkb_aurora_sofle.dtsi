@@ -37,19 +37,9 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         >;
     };
 
-    left_encoder: left_encoder {
-        compatible = "alps,ec11";
-        steps = <144>;
-        status = "disabled";
-
-        a-gpios = <&pro_micro 16 GPIO_PULL_UP>;
-        b-gpios = <&pro_micro 10 GPIO_PULL_UP>;
-    };
-
     right_encoder: right_encoder {
         compatible = "alps,ec11";
         steps = <144>;
-        status = "disabled";
 
         a-gpios = <&pro_micro 16 GPIO_PULL_UP>;
         b-gpios = <&pro_micro 10 GPIO_PULL_UP>;
@@ -57,7 +47,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
+        sensors = <&right_encoder>;
         triggers-per-rotation = <36>;
     };
 };
