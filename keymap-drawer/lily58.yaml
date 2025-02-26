@@ -105,7 +105,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - KP PLUS
   - '-'
