@@ -53,6 +53,9 @@ endif
 
 if SHIELD_LILY58_RIGHT
 
+config ZMK_KEYBOARD_NAME
+    default "Lily58Right"
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
