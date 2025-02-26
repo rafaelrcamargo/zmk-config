@@ -4,15 +4,23 @@ if SHIELD_LILY58_LEFT || SHIELD_LILY58_DONGLE_XIAO || SHIELD_LILY58_DONGLE_PRO_M
 config ZMK_KEYBOARD_NAME
     default "Lily58"
 
+endif
+
+if SHIELD_LILY58_LEFT
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default n
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
 
 endif
 
+
 if SHIELD_LILY58_RIGHT
 
-config ZMK_KEYBOARD_NAME
-    default "Lily58 Right"
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -58,25 +66,5 @@ choice LV_COLOR_DEPTH
 endchoice
 
 endif # LVGL
-
-endif
-
-if SHIELD_LILY58_LEFT
-
-config ZMK_KEYBOARD_NAME
-	default "Lily58"
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default n
-
-endif
-
-if SHIELD_LILY58_RIGHT
-
-config ZMK_KEYBOARD_NAME
-	default "Lily58 Right"
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
 
 endif
