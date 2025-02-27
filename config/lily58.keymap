@@ -29,9 +29,7 @@
                             &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE     &kp RET           &mo 2   &kp BSPC  &kp RCTRL
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -51,9 +49,7 @@
                                         &trans        &trans        &trans        &trans        &trans  &trans     &trans     &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp BACKSPACE DELETE>;
+            sensor-bindings = <&inc_dec_kp BACKSPACE DELETE>;
         };
 
         raise_layer {
@@ -73,9 +69,7 @@
                         &trans   &trans   &trans   &trans              &trans  &trans       &trans     &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         extra_1 { status = "reserved"; };

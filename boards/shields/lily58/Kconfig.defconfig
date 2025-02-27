@@ -1,7 +1,10 @@
-if SHIELD_LILY58_LEFT
+if SHIELD_LILY58_LEFT || SHIELD_LILY58_LEFT_PERIPHERAL
 
 config ZMK_KEYBOARD_NAME
 	default "Lily58 Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default n
 
 endif
 
