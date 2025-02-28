@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&raycast'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
