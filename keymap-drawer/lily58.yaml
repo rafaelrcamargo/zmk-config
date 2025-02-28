@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
   Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', ↹, Q, W, E, R, T, Y, U, I, O, P, \, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', Low, Z, X, C,
-    V, B, ⏭️, PLAY PAUSE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-control$$', LEFT ALT, LEFT COMMAND, ␣, ⏎, Rai, '$$mdi:backspace-outline$$',
+    V, B, ⏯, PLAY PAUSE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-control$$', LEFT ALT, LEFT COMMAND, ␣, ⏎, Rai, '$$mdi:backspace-outline$$',
     '$$mdi:apple-keyboard-control$$']
   Low:
   - {t: ▽, type: trans}
@@ -105,7 +105,7 @@ layers:
   - F10
   - F11
   - F12
-  - PLAY PAUSE
+  - ⏭️
   - {t: ▽, type: trans}
   - KP PLUS
   - '-'
