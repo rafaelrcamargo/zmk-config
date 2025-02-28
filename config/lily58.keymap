@@ -13,7 +13,10 @@
         raycast: raycast {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCMD &kp SPACE>;
+            bindings =
+                <&macro_press &kp LCMD>,
+                <&macro_tap &kp SPACE>,
+                <&macro_release &kp LCMD>;
             label = "RAYCAST";
         };
     };
