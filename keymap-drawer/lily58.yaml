@@ -4,7 +4,7 @@ layers:
     V, B, ⏭️, PLAY PAUSE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-control$$', LEFT ALT, LEFT COMMAND, ␣, ⏎, Rai, '$$mdi:backspace-outline$$',
     '$$mdi:apple-keyboard-control$$']
   Low:
-  - BT CLR
+  - {t: ▽, type: trans}
   - BT 1
   - BT 2
   - BT 3
@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Rai:
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
