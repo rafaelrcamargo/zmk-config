@@ -185,3 +185,7 @@ nice_view_spi: &spi0 {
 // ################# niceview working fine END #################
 */
 // vim: filetype=dts fdm=marker:
+
+&right_encoder {
+    status = "okay";
+};
